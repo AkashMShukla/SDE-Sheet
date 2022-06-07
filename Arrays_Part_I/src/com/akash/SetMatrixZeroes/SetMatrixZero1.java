@@ -1,13 +1,14 @@
+// This is Brute-Force Approach.
 package com.akash.SetMatrixZeroes;
-public class BruteForceApproach {
+public class SetMatrixZero1 {
     public static void main(String[] args) {
-        int arr[][]={
+        int[][] arr={
                 {0, 1, 2, 0},
                 {3, 4, 5, 2},
                 {1, 3, 1, 5}
         };
         SetZeroes(arr);
-        for(int i =0; i < arr.length; i++){
+        for(int i=0; i < arr.length; i++){
             for(int j = 0; j < arr[0].length; j++){
                 System.out.print(arr[i][j] + " ");
             }
