@@ -2,7 +2,7 @@
 package com.akash.SetMatrixZeroes;
 public class SetMatrixZero3 {
     public static void main(String args[]) {
-        int arr[][] = {{1,4,5,6}, {0, 4, 5, 2}, {1, 3, 1, 6}};
+        int arr[][] = {{1, 1, 1}, {1, 0, 1}, {1, 1, 1}};
         SetZeroes(arr);
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[0].length; j++) {
