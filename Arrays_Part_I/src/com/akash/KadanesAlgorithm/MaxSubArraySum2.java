@@ -1,5 +1,5 @@
-//Same as previous code. Only removed the third k loop
-// Better Approach
+//Same as previous code. Only removed the third k loop.
+// Better Approach.
 package com.akash.KadanesAlgorithm;
 import java.util.ArrayList;
 public class MaxSubArraySum2 {
