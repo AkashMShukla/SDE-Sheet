@@ -5,7 +5,8 @@ import java.util.Arrays;
 public class NextPermutation2usingArrayList {
     public static void main(String[] args) {
         ArrayList<Integer> numbers = new ArrayList<>(Arrays. asList(1, 3, 5, 4, 2));
-        System.out.println(numbers);
+        ArrayList<Integer> ans = nextPermutation(numbers);
+        System.out.println(ans);
     }
     static ArrayList<Integer> nextPermutation(ArrayList<Integer> permutation){
         if(permutation == null || permutation.size() <= 1){         //If the array is 1 or Null then return array itself
