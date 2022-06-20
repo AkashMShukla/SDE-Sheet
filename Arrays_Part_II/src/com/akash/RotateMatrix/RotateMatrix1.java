@@ -1,6 +1,4 @@
 package src.com.akash.RotateMatrix;
-import java.util.ArrayList;
-import java.util.Arrays;
 public class RotateMatrix1 {
     public static void main(String[] args) {
         int[][] arr = {
