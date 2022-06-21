@@ -16,7 +16,9 @@ public class PascalTriangleusingtwoListOnly {
             for(int j = 1;j < i; j++){
                 Current.add(Final.get(i-1).get(j - 1) + Final.get(i-1).get(j));
             }
-            Current.add(1);
+            if(i != 0) {
+                Current.add(1); // For First row we don't need to print 1 two times. For other rows we need to print 1 in last index.
+            }
             Final.add(Current);
         }
         return Final;
