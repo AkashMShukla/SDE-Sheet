@@ -1,4 +1,4 @@
-package src.com.akash.RotateMatrix;
+package com.akash.RotateMatrix;
 public class RotateMatrix2 {
     public static void main(String[] args) {
         int[][] arr = {
@@ -16,7 +16,8 @@ public class RotateMatrix2 {
     }
     static void rotate(int[][] matrix){
         for(int i = 0; i < matrix.length; i++){
-            for(int j = i; j < matrix[0].length; j++){
+            for(int j = i; j < matrix[0].length; j++){  // we are starting from i because we are ignoring every single column as we go in next row.
+                // Because that column is already changed with row.
                 int temp = 0;
                 temp = matrix[i][j];
                 matrix[i][j] = matrix[j][i];    // Here we are transposing the matrix. Changing row to column & vice-versa.

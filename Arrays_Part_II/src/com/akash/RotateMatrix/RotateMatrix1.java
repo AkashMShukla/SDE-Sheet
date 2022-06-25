@@ -1,4 +1,4 @@
-package src.com.akash.RotateMatrix;
+package com.akash.RotateMatrix;
 public class RotateMatrix1 {
     public static void main(String[] args) {
         int[][] arr = {
